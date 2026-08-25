@@ -1,0 +1,18 @@
+{
+  "name": "backend-a7-llm",
+  "version": "1.0.0",
+  "description": "One trustworthy LLM endpoint: POST /triage — message in, validated JSON out.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node --env-file=.env src/server.js",
+    "eval": "node --env-file=.env evals/run.js",
+    "hello": "node --env-file=.env src/llm/hello.js",
+    "test": "node --test"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0",
+    "openai": "^4.67.3",
+    "zod": "^3.23.8"
+  }
+}

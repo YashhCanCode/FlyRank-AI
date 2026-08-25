@@ -1,0 +1,18 @@
+[
+  { "id": 1, "text": "I was charged twice for my subscription this month. Please refund the extra charge.",
+    "expected": { "category": "billing" }, "note": "clear duplicate-charge" },
+  { "id": 2, "text": "When I click Export the dashboard throws a 500 error and nothing downloads.",
+    "expected": { "category": "bug" }, "note": "clear broken feature" },
+  { "id": 3, "text": "Would you consider adding a dark mode to the web app? It'd be easier on the eyes.",
+    "expected": { "category": "feature" }, "note": "clear feature request" },
+  { "id": 4, "text": "I can't log in and the password-reset email never arrives in my inbox.",
+    "expected": { "category": "account" }, "note": "account access issue" },
+  { "id": 5, "text": "How do I update the credit card on file for my account?",
+    "expected": { "category": "billing" }, "note": "billing question, low urgency" },
+  { "id": 6, "text": "Search returns zero results even for products I know exist in my catalogue.",
+    "expected": { "category": "bug" }, "note": "possible bug, not obviously account/feature" },
+  { "id": 7, "text": "hey",
+    "expected": { "category": "other" }, "note": "AMBIGUOUS / when-unsure: no actionable content" },
+  { "id": 8, "text": "This is the third time I've written in and still no one has helped me.",
+    "expected": { "category": "other" }, "note": "AMBIGUOUS: frustration, no category -> other, high urgency" }
+]
