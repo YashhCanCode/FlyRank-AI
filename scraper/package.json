@@ -1,0 +1,16 @@
+{
+  "name": "polite-scraper",
+  "version": "1.0.0",
+  "description": "A polite scraper for books.toscrape.com — fetch → extract → normalize → validate → store → report.",
+  "type": "commonjs",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "zod": "^3.23.8"
+  }
+}
