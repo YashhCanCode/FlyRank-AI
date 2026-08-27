@@ -1,0 +1,18 @@
+{
+  "name": "pdf-report-generator",
+  "version": "1.0.0",
+  "description": "Query data with SQL, render it to a PDF report, and serve it by link.",
+  "type": "commonjs",
+  "main": "src/server.js",
+  "scripts": {
+    "seed": "node --experimental-sqlite --no-warnings src/seed.js",
+    "report": "node --experimental-sqlite --no-warnings src/renderTest.js",
+    "start": "node --experimental-sqlite --no-warnings src/server.js",
+    "test": "node --experimental-sqlite --no-warnings --test"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0",
+    "playwright": "^1.47.0"
+  }
+}
