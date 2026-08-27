@@ -1,0 +1,17 @@
+{
+  "name": "background-job",
+  "version": "1.0.0",
+  "description": "Accept fast, work in the background, report status — with Inngest (202 + worker + status + cron).",
+  "type": "commonjs",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "inngest": "npx inngest-cli@latest dev -u http://localhost:3000/api/inngest",
+    "test": "node --test"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0",
+    "inngest": "^3.27.0"
+  }
+}
